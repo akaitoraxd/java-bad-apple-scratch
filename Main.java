@@ -29,7 +29,7 @@ public class Main {
         try {
             for (int i = 1; i < 6573; i++){
                 StringBuilder frame = new StringBuilder();
-                try (BufferedReader reader = new BufferedReader(new FileReader("D:\\Bad-Apple\\frames-ascii\\out (" + i + ").txt"))) {
+                try (BufferedReader reader = new BufferedReader(new FileReader("\\frames-ascii\\out (" + i + ").txt"))) {
                 String line;
                 while ((line = reader.readLine()) != null) {
                     frame.append(line).append("\n");
